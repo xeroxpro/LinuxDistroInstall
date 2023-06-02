@@ -18,6 +18,7 @@ echo \
 #4.)Update the apt package index(Install Docker Engine Part)
 sudo apt-get update
 ./get-docker.sh
+sudo service docker start 
 sudo docker run -d --privileged -p 80:80 financeio/fintech:latest
 
  
