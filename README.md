@@ -38,9 +38,40 @@ When running any of these in production, you may want to invest in support throu
 
 -----INSTALLATIONS STEPS-----------
 
+!!!P.S.:I am gibing the commandliine specs with "sudo" as if you are running without root user in order provide confidence.
+
 1.)Install git For Debian Or Ubuntu Environment:
 
-sudo apt update
-sudo apt install git -y
+"sudo apt update"
+"sudo apt install git -y"
+
+
+
 
 ![image](https://github.com/xeroxpro/LinuxDistroInstall/assets/40662677/cca17cf3-5e32-400d-a6eb-9556e20b7827)
+
+
+2.)Clone The repository to your machne.
+
+sudo git clone https://github.com/xeroxpro/LinuxDistroInstall 
+
+3.)"cd LinuxDistroInstall" in order to install docker and its original docker.hub7docker.io components
+
+
+![image](https://github.com/xeroxpro/LinuxDistroInstall/assets/40662677/94c8cf5b-fcc4-4d36-9ded-1c2536066d8c)
+
+
+
+4.)"./setup.sh" or "sh setup.sh" (if you dont execute setup.sh.Please type "chmod +x setup.sh" than execute)
+
+
+![image](https://github.com/xeroxpro/LinuxDistroInstall/assets/40662677/91f00e9f-44bb-45be-acea-0f68b71afeef)
+
+
+5.)Docker Engine and Application have been installed in your system.In order to check type "sudo docker ps"
+
+
+![image](https://github.com/xeroxpro/LinuxDistroInstall/assets/40662677/a443e9bc-f7bb-47a2-8485-33540ce8904a)
+
+
+6.Everything is ready .Now in your favorite browser please type "http://127.0.0.1" or "http://localhost" in regards to navigate to the application.
